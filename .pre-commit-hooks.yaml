@@ -1,7 +1,7 @@
 - id: ty
   name: ty
   description: "Run 'ty' for extremely fast Python type checking"
-  entry: ty check
+  entry: ty check --ignore-active-virtual-env
   language: python
   types: [python]
   args: []
